@@ -1,4 +1,4 @@
-let origine = new Request("https://raw.githubusercontent.com/jacobert/Project-Work/main/assets/js/film.json")
+let origine = new Request("https://raw.githack.com/jacobert/Verifiche-Corso-Progettista-Front-End/main/Tests/JAVASCRIPT-Project-Work/assets/js/film.json")
 
 fetch(origine)
 .then(function(risposta){
