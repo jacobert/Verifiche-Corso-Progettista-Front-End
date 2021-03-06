@@ -1,0 +1,33 @@
+a {
+    box-shadow: 0 1px 0 grey;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: grey;
+  }
+  #logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .primaryLink{
+    box-shadow: 0 1px 0 #0d6efd;
+  }
+
+  .primaryLink:hover{
+    background-color: #438eff;
+  }
+
+  .titolo {
+    font-weight: bold
+  }
+
+  .maxAlt {
+    max-height: 350px;
+  }
+
+  .foot {
+    padding: 1rem;
+  }
