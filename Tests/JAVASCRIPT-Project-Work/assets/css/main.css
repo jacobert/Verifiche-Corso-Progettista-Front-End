@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(255, 254, 173, 0.6);
+}
+
+#main {
+  height: 350px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 70%, #fffead 100%), url("../img/main.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  filter: grayscale(50%);
+}
+#main h1 {
+  margin: 0px;
+  padding-top: 30px;
+  font-size: 60px;
+  font-family: "Rye", cursive;
+  color: red;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  text-align: center;
+}
+
+.headerDescription {
+  width: 300px;
+  display: inline-block;
+}
+.headerDescription h2 {
+  margin: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: #753737;
+  font-family: "Smokum", cursive;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #fcfbd3;
+  border-bottom: solid 1px #7537376b;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+nav ul li {
+  padding: 15px;
+  color: #753737;
+}
+nav ul li button {
+  text-transform: uppercase;
+  width: 150px;
+  height: 100px;
+  font-size: 35px;
+  padding: 0;
+  border-color: #753737;
+  background-color: rgba(255, 196, 0, 0.816);
+  font-family: "Smokum", cursive;
+}
+nav ul li button:focus {
+  background-color: #bd8010;
+}
+
+#end {
+  height: 150px;
+  background: linear-gradient(to bottom, rgba(255, 254, 173, 0) 0%, #c7ae68 100%);
+}
+#end div p {
+  padding: 30px;
+  text-align: center;
+  font-family: "Rye", cursive;
+}
+#end div p a:link {
+  color: #9b1b1b;
+  text-decoration: none;
+}
+
+.ko {
+  text-align: center;
+  font-family: "Smokum", cursive;
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+}
+
+#spacer {
+  height: 50px;
+}
+
+.sezioni {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 50px 5%;
+}
+
+.film {
+  flex: 1 0 21%;
+  margin: 10px 5px;
+  height: 425px;
+  background-color: #f5d288;
+  border: solid 1px #753737;
+  box-shadow: 5px 5px 2px #753737;
+  text-align: center;
+}
+.film:hover {
+  margin-top: -5px;
+}
+.film h3 {
+  font-family: "Smokum", cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #9b1b1b;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.film img {
+  height: 300px;
+  width: 200px;
+  border: solid 1px #CCC;
+  box-shadow: 5px 5px 0px #999;
+}
+
+#disableBackground {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: black;
+  z-index: 0;
+}
+
+#mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 0;
+  margin-top: 5%;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  z-index: 1;
+  width: 90%;
+  background-image: linear-gradient(to right, #f5d288 0%, #f5d288 30%, #a4cedd 100%);
+  background-color: #f5d288;
+  border: solid 2px #753737;
+  box-shadow: 5px 5px 2px #753737;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainDiv #boxLeft {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 70%, #f5d288 100%), url("../img/testImg.jpg");
+  background-position: center;
+  margin-right: 30px;
+  border: solid 1px #753737;
+}
+#mainDiv #boxLeft p {
+  font-style: bold;
+  font-family: "Rye", cursive;
+}
+#mainDiv #boxRight p {
+  margin: 30px 30px 30px 0px;
+  text-align: left;
+  padding: 30px;
+  overflow-y: scroll;
+  max-height: 100px;
+  background: #f5eddc;
+  border: solid 1px #753737;
+  scrollbar-width: thin;
+  font-size: 13px;
+  font-style: italic;
+}
+#mainDiv h2 {
+  font-family: "Rye", cursive;
+  color: #9b1b1b;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+#mainDiv img {
+  padding: 15px;
+  vertical-align: middle;
+  max-width: 200px;
+  max-height: 300px;
+  margin: 0px 70px;
+}
+#mainDiv button {
+  background: #f5eddc;
+  border: solid 1px #753737;
+  margin: 30px;
+  font-family: "Rye", cursive;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

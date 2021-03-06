@@ -1,0 +1,74 @@
+@media only screen and (min-width: 750px) and (max-width: 1060px) {
+  ul > :first-child {
+    display: none;
+  }
+
+  #mainDiv img {
+    margin: 0px 40px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  ul > :first-child {
+    display: none;
+  }
+
+  #main {
+    height: 100px;
+  }
+  #main h1 {
+    font-size: 20px;
+  }
+
+  nav ul li {
+    padding: 5px;
+  }
+  nav ul li button {
+    width: 80px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  #spacer {
+    height: 430px;
+  }
+
+  .sezioni {
+    padding: 25px 5%;
+  }
+
+  .film {
+    height: 400px;
+  }
+
+  #end {
+    height: 100px;
+  }
+  #end div p {
+    font-size: 10px;
+  }
+
+  #mainDiv {
+    display: block;
+    background-image: linear-gradient(to bottom, #f5d288 0%, #f5d288 30%, #a4cedd 100%);
+  }
+  #mainDiv #boxLeft {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0) 70%, #f5d288 100%), url("../img/testImg.jpg");
+    margin-right: 0px;
+  }
+  #mainDiv #boxRight p {
+    margin: 15px;
+    padding: 20px;
+  }
+  #mainDiv img {
+    padding: 0px;
+    margin: 0px;
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #mainDiv button {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

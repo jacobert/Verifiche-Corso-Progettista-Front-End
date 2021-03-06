@@ -1,0 +1,64 @@
+@media only screen and (max-width: 980px) {
+    .section-one-left {
+        width: 100%;
+
+    }
+
+    div.inside-section-one-left {
+        margin: 0 5%;
+    }
+
+    div.inside-section-one-left h2 {
+        margin-top: 5%;
+        font-size: 35px;
+    }
+
+    .section-one-right {
+        width: 80%;
+    }
+
+    .section-one-element {
+        width: 100%;
+    }
+
+    .section-one-box {
+        margin:0 7%
+    }
+
+    .section-two-side {
+        width: 100%;
+    }
+
+
+
+    .inside-section-two-left {
+        padding: 0 5%;
+    }
+    .inside-section-two-right {
+        padding: 5%;
+    }
+
+    .form-box {
+        margin: 5%
+    }
+
+    .header-form h3 {
+        margin-top: 3%;
+        padding-top: 3%
+    }
+
+    footer .section-top{
+        padding: 3px 0
+
+    }
+    .footer-final {
+        margin: 10px 10px 20px 10px
+    }
+
+    .footer-final p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+}
+
