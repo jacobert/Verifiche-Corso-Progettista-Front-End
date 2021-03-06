@@ -1,1 +1,1 @@
-# Verifiche-Corso-Progettista-Front-End
+Folder for various projects of Front-End-Course
