@@ -72,7 +72,7 @@ function creaElementi(ricette){
         var diffic = document.createElement('h4')
         diffic.className = 'card-title pricing-card-title pt-2 pb-2 text-warning';
 
-        diffic.innerHTML = 'Difficoltà '+ricetta.difficoltà+'/5'
+        diffic.textContent = 'Difficoltà '+ricetta.difficoltà+'/5'
 
         var divIngredienti = document.createElement('div');
         divIngredienti.className='card mb-2 shadow-sm'

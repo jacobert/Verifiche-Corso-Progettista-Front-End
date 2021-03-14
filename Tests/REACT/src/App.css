@@ -84,10 +84,6 @@ input {
   color: orange;
 }
 
-.Search-Button:disabled{
-  opacity: 0.5;
-}
-
 .Chuck-Logo {
   height: 13rem;
   margin-top: 4rem;

@@ -1,18 +1,13 @@
 import React from 'react';
 
-const Joke = ({ propsValue, propsCategories }) => {
+const Joke = ({ value, categories }) => {
     return (
-        <>              
-            <div className="Joke">
-                <code className="Joke-Value">{propsValue === undefined ? 'Usa la barra di ricerca per cercare le migliori barzellette su Chuck Norris!' : propsValue}</code> 
-            </div>
-            {Array.isArray(propsCategories) && propsCategories.map((category, index) =>
-                <div className="Cat-button" key={index}>
-                    <code>{category}</code>
-                </div>
-            )}
-        </>
-
+      <div className="Joke">
+        <code className="Joke-Value">{value}</code>
+        <p>categories: {categories.map((cat, idx) =>
+          <span className="Selected-Cat" key={idx}><code>{cat}</code></span>
+        )}</p>
+      </div>
     )
   }
 

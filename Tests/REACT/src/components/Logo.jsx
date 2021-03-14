@@ -1,11 +1,16 @@
-import React from 'react';
+import React from 'react'
+import logo from '../logo.svg';
 
-const Logo = ({ propsLoading, propsLogo }) => {
+
+// classe 'App-logo-spinning' durante il caricamento, altrimenti classe 'App-logo'
+
+
+const Logo = ({ loading }) => {
     return (
       <img
-        src={propsLogo}
+        src={logo}
         alt='interactive-logo'
-        className={propsLoading ? 'App-logo-spinning' : 'App-logo'}
+        className={`App-logo${loading ? '-spinning' : ''}`} 
       />
     )
   }
